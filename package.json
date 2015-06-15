@@ -1,6 +1,6 @@
 {
   "name": "postcss-chunk",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "PostCSS plugin to split larger CSS files into smaller chunks based on target selector count. Supports nested atrules, and processing multiple files in one stream.",
   "keywords": [
     "postcss",
