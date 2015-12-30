@@ -23,7 +23,7 @@ module.exports = postcss.plugin('postcss-chunk', function (opts) {
 
 		function nextChunk() {
 			count = 0;
-			chunk = css.clone({nodes: []});
+			chunk = postcss.root();
 			chunks.push(chunk);
 		}
 
